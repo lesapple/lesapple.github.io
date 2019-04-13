@@ -1,0 +1,4 @@
+from PIL import Image
+
+my_image = Image.open("quince-600x380.jpeg")
+image_pixels = my_image.load()
